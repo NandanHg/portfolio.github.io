@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NandanHG</title>
+    <link rel="stylesheet" href="1.html">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4abac0a22b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div id="Home">
+       <div class="page1">
+        <nav>
+            <h1 class="name">NANDAN KUMAR HG</h1>
+            <ul id="sidemenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="phara">
+            <h1 class="ciao">Ciao,</h1>
+            <p class="phara1">I'm <span>Nandan</span>, a designer + technical writer + frontend developer with a background in Engineering management, currently residing in Italy.</p>
+        </div>
+       </div>
+    </div>
+
+    <!-----------------about---------------->
+
+ <div id="about">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="Images/nandan.png" alt="">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Analyst with over 2 years of work experience in analyzing, designing data and creating aircraft technical documentation. A team player and a highly motivated individual willing to learn new technologies. Able to adapt to different work culture and always ready to accept new challenges.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>Project management</li>
+                    <li>Digital marketing</li>
+                    <li>Data visualization</li>
+                    <li>Technical writing</li>
+                    <li>UI/UX design</li>
+                    <li>Front-end Web designing</li>
+                    <li>New product designing</li>
+                    <li>Mechanical design and drafting</li>
+                    <li>Video editing</li>
+                    <li>Portrait pencil sketching</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>Analyst</span><br>Aug 2019 - Sep 2021 <br>CAPGEMINI CONSULTING INDIA PVT LTD, BANGALORE, INDIA </li>
+                    <li><span>Project Management Trainee </span><br>May 2022 - Jun 2022 <br>BRAINNEST Business Consulting and Services, Bremen, Germany </li>
+                </ul>
+                <div class="alink">
+                    <a href="1.html">Click for more information</a>
+                    </div>
+                
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>Masters in Engineering Management </span><br>Oct 2021 - Jun 2023 <br> Universita degli studi di Padova, Italy</li>
+                    <li><span>Bachelors in Mechanical Engineering </span><br>Aug 2015 - Jul 2019 <br> Vishvesvarayya Technological University, East Point collage of Engineering, Bengaluru, India  <br>CGPA: 8.22 out of 10</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+<br><br>
+ <!-----------------Services---------------->
+ <div id="services">
+    <div class="page3">
+        <h1 class="sub-title">My Services</h1><br>
+        <div class="body">
+            <div class="main-scroll-div">
+                <div>
+                    <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angle-left"></i></button>
+                </div>
+                <div class="cover">
+                    <div class="scroll-images">
+                        <div class="child">
+                            <img class="child-img" src="Images/writing.png" alt="">
+                            <div class="layer">
+                                <h2 >Aircraft Technical writing</h2>
+                                <a href="tw.html"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="child"><img class="child-img" src="Images/ui.png" alt="">
+                            <div class="layer">
+                                <h2 >UI/UX design</h2>
+                                <a href="ui.html"><i class="fa-solid fa-link"></i></a>
+                            </div></div>
+                        <div class="child"><img class="child-img" src="Images/Project.png" alt="">
+                            <div class="layer">
+                                <h2 >Project management</h2>
+                                <a href="pm.html"><i class="fa-solid fa-link"></i></a>
+                            </div></div>
+                        <div class="child"><img class="child-img" src="Images/product.png" alt="">
+                            <div class="layer">
+                                <h2 >New Business and Product development</h2>
+                                <a href="nb.html"><i class="fa-solid fa-link"></i></a>
+                            </div></div>
+                        <div class="child"><img class="child-img" src="Images/video.png" alt="">
+                            <div class="layer">
+                                <h2 >Video editing</h2>
+                                <a href="ve.html"><i class="fa-solid fa-link"></i></a>
+                            </div></div>
+                        <div class="child"><img class="child-img" src="Images/drawing.png" alt="">
+                            <div class="layer">
+                                <h2 >Portrait pencil sketching</h2>
+                                <a href="ps.html"><i class="fa-solid fa-link"></i></a>
+                            </div></div>
+                    </div>
+                </div>
+                <div>
+                    <button class="icon" onclick="scrollr()"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <!---------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>nandanhg2222@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+39 3472809168</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nandan-kumar-hg-42884b184/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/nandanhg?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <div class="bb">
+                    <button class="btn btn2"></button><a href="Images/my resume.pdf" download >Download CV</a></button>
+                </div>
+                
+            </div>
+             <div class="contact-right">
+                <form name="submit-to-google-sheet" action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+             </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="copyright">
+        <p>Copyright Nandan</p>
+    </div>
+</div>
+
+
+ <!---------------------script-------------->
+    
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    function scrolll(){
+        var left=document.querySelector(".scroll-images");
+        left.scrollBy(-350, 0)
+    }
+    function scrollr(){
+        var right=document.querySelector(".scroll-images");
+        right.scrollBy(350, 0)
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygkJrX-62or1aITFMp53ylAnFw-lmh0G6WrrplK8LQv_XlEbxTxF8RmITJpEXFBidV_w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
